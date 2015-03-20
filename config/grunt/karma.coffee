@@ -2,7 +2,7 @@ _  = require('lodash')
 browsers = require('../browsers')
 
 remoteReporters = ['dots']
-remoteReporters.push('saucelabs') if process.env.TRAVIS_BRANCH == 'master'
+remoteReporters.push('saucelabs') if process.env.TRAVIS_BRANCH == 'sauce'
 
 remoteKarma = _.reduce(browsers, (memo, config, browser) ->
   memo[browser] =
