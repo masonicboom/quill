@@ -21,3 +21,6 @@ env:
     - TEST=unit-ipad
     - TEST=unit-iphone
     - TEST=unit-android
+  global:
+    - secure: Kdqvk25nI86pIsTDA2G3eJxT0lYjYUifJeeXw+hUF1mnMC7yMcRLBVOLiDyUZvAgvezWrWaHRZ4JtgrIB118335z5WI9muT3Y8VB0HMsIYBYCjfFWKM334r/KaYVBkw+cspDPK7F9wNG26H7OCcIIs9FiHceI+qn2jdcAKLtAYk=
+    - secure: ZmghdABEJqiqapOByzyvNxSyYh0dqZGxdtYD39q99w4buEMU/q9RP+kx5l91cIFm1Qy+H6Z6xkT1BMv35yo3wsHZX1IvGxeJeRmn4o4k487GBp8AZHsUUS8mLcwRItCNwMvjd3y9zqhm350qIuE+d2kTi1Knp6IEQOZytPk5+tY=
